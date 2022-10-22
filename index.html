@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="style.css">
+  <title>Site</title>
+</head>
+<body>
+  <main>
+    <!-- HEADER -->
+    <header>
+      <div class="logo">
+        Welcome curious!
+        What do you do here?
+      </div>
+      <div class="menu">
+        <nav class="nav-list">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Message me</a>
+        </nav>
+      </div>
+    </header>  
+    
+    <!-- HOME -->
+    <section id="home">
+      <div class="home-info">
+        <h2>Hello, I'm Buccini</h2>
+        <span class="home-position">Student of Programming and Web Design</span>
+        <span class="home-resume">
+          Well, I'm just a student doing a sequence of projects.
+           I like styling and having my own websites, it's really fun for me and besides,
+            I make videos, edit photos, write and have a sped up music channel.
+            My content tends to have my aesthetic and is usually geared towards my personal tastes. 
+            Anyway, it's good to have you here! Be welcome.
+        </span>
+
+        <button>
+          <a href="#contact">Find me!</a>
+        </button>
+      </div>
+      <div class="home-img">
+        <img src="https://avatars.githubusercontent.com/u/97747473?v=4" alt="Github profile picture">
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+      <h2>Main projects</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img1.jpn.jpeg" alt="Note Taking Hina x Takemichi">
+            </div>
+            <div class="project-info">
+              <h2>Note Taking Hina x Takemichi </h2>
+              <p>This project was made for a programming challenge and based on a tutorial.
+                 Basically it's a Tokyo Revengers themed notebook,
+                  more specifically the characters are Hinata Tachibana and Takemichi Hanagaki,
+                   the background is a panel from the manga.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img2.jpn.jpeg" alt="To-Do list Purple Theme">
+            </div>
+            <div class="project-info">
+              <h2>To-Do list Purple Theme </h2>
+              <p>Another project was made for a programming challenge and based on a tutorial.
+                 It's an interactive To-do list where JavaScript was used,
+                  its difference is the theme.
+                   This is a project that I intend to improve over time.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img3.jpn.jpeg" alt="Anime List">
+            </div>
+            <div class="project-info">
+              <h2>Anime List</h2>
+              <p>Project based on the NLW eSports workshop. 
+                This is my favorite project, 
+                it's basically a list of favorite anime 
+                and the addition is social networks.
+              </p>
+            </div>
+          </div>
+        </div>
+      
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+
+  <section id="contact">
+    <h2>Hey, send me a email</h2>
+    <form>
+      <input type="text" placeholder="Digite seu nome" />
+      <input type="email" placeholder="Digite seu e-mail" />
+      <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+      <button>Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    Thanks for coming this far.
+  </footer>
+  </main>  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
